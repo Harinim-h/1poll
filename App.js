@@ -1,9 +1,14 @@
 import React from 'react';
-   import Polls from './components/Polls';
 
-   const App = () => <Polls />;
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to My React App!</h1>
+        <p>Edit <code>src/App.js</code> and save to reload.</p>
+      </header>
+    </div>
+  );
+}
 
-   export default App;
-   import { reportWebVitals } from 'web-vitals';
-
-   reportWebVitals();
+export default App;
