@@ -4,3 +4,6 @@ import React from 'react';
    const App = () => <Polls />;
 
    export default App;
+   import { reportWebVitals } from 'web-vitals';
+
+   reportWebVitals();
