@@ -1,7 +1,9 @@
-import React from "react";
-<div>
-        <h1>Welcome to My React App Deployed on Vercel!</h1>
-        <p>Now the changes will appear after deployment.</p>
-      </div>
+import React from 'react';
+   import Polls from './components/Polls';
 
-export default App;
+   const App = () => <Polls />;
+
+   export default App;
+   import { reportWebVitals } from 'web-vitals';
+
+   reportWebVitals();
