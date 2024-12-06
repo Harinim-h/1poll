@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function App() {
+  const [counter, setCounter] = useState(0);
+
+  const increment = () => setCounter(counter + 1);
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My React App!</h1>
-        <p>Edit <code>src/App.js</code> and save to reload.</p>
+        <h1>Counter: {counter}</h1>
+        <button onClick={increment}>Increment</button>
       </header>
     </div>
   );
